@@ -26,7 +26,7 @@ export function generateShareText(
 
   const result = won ? `${guesses.length}/6` : 'X/6';
 
-  return `Dev Wordle ${result}\n\n${emojiGrid}\n\nPlay at: http://localhost:3002`;
+  return `Dev Wordle ${result}\n\n${emojiGrid}\n\nPlay at: https://vibe-coding-game-two.vercel.app`;
 }
 
 export async function copyToClipboard(text: string): Promise<boolean> {
